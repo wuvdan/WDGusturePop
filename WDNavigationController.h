@@ -9,6 +9,7 @@
    self.screenshotView = [[WDScreenShortView alloc] initWithFrame:[UIScreen mainScreen].bounds];
    [self.window insertSubview:self.screenshotView atIndex:0];
    self.screenshotView.hidden = true;
+   让自己的NavigationController继承WDNavigationController，其他都按照系统的使用
  */
 
 #import <UIKit/UIKit.h>
