@@ -76,6 +76,18 @@ static char GestureEndedBlockKey;
 #import <QuartzCore/QuartzCore.h>
 #import "AppDelegate.h"
 
+@interface WDScreenShortView ()
+
+@property (nonatomic, strong) UIImageView *imgView;
+@property (nonatomic, strong) UIView *maskView;
+@property (nonatomic, strong) NSMutableArray *arrayImage;
+
+- (void)showEffectChange:(CGPoint)pt;
+- (void)restore;
+- (void)screenShot;
+
+@end
+    
 @implementation WDScreenShortView
 
 static char szListenTabbarViewMove[] = "listenTabViewMove";
