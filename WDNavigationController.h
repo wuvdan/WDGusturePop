@@ -16,14 +16,6 @@
 
 @interface WDScreenShortView : UIView
 
-@property (nonatomic, strong) UIImageView *imgView;
-@property (nonatomic, strong) UIView *maskView;
-@property (nonatomic, strong) NSMutableArray *arrayImage;
-
-- (void)showEffectChange:(CGPoint)pt;
-- (void)restore;
-- (void)screenShot;
-
 @end
 
 @interface WDNavigationController : UINavigationController
